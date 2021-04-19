@@ -30,7 +30,7 @@ total_test,fatality_ratio) VALUES(?,?,?,?,?,?,?,?,?,?,?,?) '''
 
 ids = 0  # primary key
 
-print("COVID-19 data for US states shall begin loading shortly.....")
+print("COVID-19 data for Countries shall begin loading shortly.....")
 for file in tqdm(os.listdir("daily_data_us")):
 
     # extract date from filename
