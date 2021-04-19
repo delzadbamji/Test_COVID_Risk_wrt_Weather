@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 
 def plot_cluster(X, Y, labels, probabilities):
     color_list = ['#FF2D00', '#FF7100', '#FFA900', '#FFCE00', '#FFEC00', '#E9FF00', '#ADFF00', '#80FF00', '#00FF8B', '#00E1FF']
-    color_label = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+    color_label = ['0.0-0.1 (Low Risk)', '0.1-0.2', '0.2-0.3', '0.3-0.4', '0.4-0.5', '0.5-0.6', '0.6-0.7', '0.7-0.8', '0.8-0.9', '0.9-1.0 (High Risk)']
+
     colors = []
     new_labels = []
     for p in probabilities:
