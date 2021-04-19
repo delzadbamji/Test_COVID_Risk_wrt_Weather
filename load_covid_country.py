@@ -1,8 +1,7 @@
-import sqlite3
-from sqlite3 import Error
 import os
+import sqlite3
+
 import pandas as pd
-import random
 from tqdm import tqdm
 
 conn = None
@@ -25,7 +24,7 @@ if conn is not None:
         raise Exception('errors in the table creation')
 
 
-sql = '''INSERT INTO us_data(id,date,Province,lat,longi,confirmed,risk, recovered, active,incident_rate,
+sql = '''INSERT INTO country_data(id,date,Province,lat,longi,confirmed,risk, recovered, active,incident_rate,
 total_test,fatality_ratio) VALUES(?,?,?,?,?,?,?,?,?,?,?,?) '''
 
 ids = 0  # primary key
