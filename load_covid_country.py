@@ -72,4 +72,4 @@ for file in tqdm(os.listdir("Country_dataset")):
         except Exception as e:
             raise Exception('errors in the table') from e
 #
-# conn.close()
+conn.close()
