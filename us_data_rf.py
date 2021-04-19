@@ -6,6 +6,7 @@ from tqdm import tqdm
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 import pickle
+from plot_graph import *
 
 
 def runClassifier(df, label):
@@ -81,8 +82,9 @@ def main():
     df = df.drop('Province', axis=1)
     df = df.join(one_hot)
     runClassifier(df, label)
-    fun(conn, "us_data_clf", first)
-
+    X, Y, label, prob = fun(conn, "us_data_clf", first)
+    print('Probabilites', prob[:,1].max())
+    plot_cluster(X, Y, label, prob[:,1])
 
 if __name__ == '__main__':
     main()
