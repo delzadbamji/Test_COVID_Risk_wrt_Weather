@@ -2,9 +2,863 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e45003b-3891-4710-8613-d7c3c9f8252c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Afghanistan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Albania.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Algeria.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Andorra.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Angola.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Antigua and Barbuda.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Argentina.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Armenia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Australia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Austria.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Azerbaijan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Bahamas.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Bahrain.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Bangladesh.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Barbados.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Belarus.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Belgium.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Belize.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Benin.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Bhutan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Bolivia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Bosnia and Herzegovina.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Botswana.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Brazil.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Brunei.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Bulgaria.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Burkina Faso.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Burma.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Cabo Verde.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Cambodia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Cameroon.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Canada.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Central African Republic.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Chad.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Chile.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/China.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Colombia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Congo (Brazzaville).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Congo (Kinshasa).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Costa Rica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Cote d'Ivoire.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Croatia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Cuba.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Cyprus.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Czechia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Denmark.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Diamond Princess.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Djibouti.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Dominica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Dominican Republic.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Ecuador.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Egypt.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/El Salvador.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Equatorial Guinea.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Eritrea.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Estonia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Eswatini.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Ethiopia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Fiji.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Finland.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/France.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Gabon.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Gambia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Georgia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Germany.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Ghana.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Greece.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Grenada.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Guatemala.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Guinea-Bissau.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Guinea.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Guyana.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Haiti.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Holy See.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Honduras.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Hungary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Iceland.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/India.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Indonesia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Iran.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Iraq.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Ireland.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Israel.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Italy.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Jamaica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Japan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Jordan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Kazakhstan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Kenya.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Korea, South.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Kosovo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Kuwait.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Kyrgyzstan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Laos.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Latvia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Lebanon.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Liberia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Libya.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Liechtenstein.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Lithuania.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Luxembourg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/MS Zaandam.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Madagascar.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Malaysia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Maldives.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Mali.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Malta.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Mauritania.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Mauritius.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Mexico.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Moldova.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Monaco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Mongolia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Montenegro.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Morocco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Mozambique.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Namibia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Nepal.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Netherlands.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/New Zealand.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Nicaragua.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Niger.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Nigeria.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/North Macedonia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Norway.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Oman.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Pakistan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Panama.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Papua New Guinea.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Paraguay.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Peru.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Philippines.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Poland.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Portugal.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Qatar.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Romania.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Russia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Rwanda.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Saint Kitts and Nevis.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Saint Lucia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Saint Vincent and the Grenadines.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/San Marino.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Saudi Arabia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Senegal.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Serbia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Seychelles.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Singapore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Slovakia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Slovenia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Somalia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/South Africa.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Spain.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Sri Lanka.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Sudan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Suriname.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Sweden.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Switzerland.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Syria.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Taiwan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Tanzania.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Thailand.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Timor-Leste.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Togo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Trinidad and Tobago.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Tunisia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Turkey.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/US.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Uganda.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Ukraine.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/United Arab Emirates.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/United Kingdom.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Uruguay.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Uzbekistan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Venezuela.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Vietnam.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/West Bank and Gaza.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Zambia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/Zimbabwe.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Country_dataset/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Phase1_submission/BDA_Project_Phase_I.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Phase1_submission/project_BDA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authors_github_code/Baysian_optmized_LSTM.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authors_github_code/LSTM_evaluate_model_performance.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authors_github_code/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authors_github_code/environment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authors_github_code/feature_corelation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authors_github_code/feature_corelation_box.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authors_github_code/helper_lstm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authors_github_code/report_baysian.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid19-master/India.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid19-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid19-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid19-master/US.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid19-master/data_v2/alldata.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid19-master/data_v2/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Afghanistan/Afghanistan_dew_mean_confirmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Afghanistan/Afghanistan_dew_mean_recovered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Afghanistan/Afghanistan_humidity_mean_confirmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Afghanistan/Afghanistan_humidity_mean_recovered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Afghanistan/Afghanistan_mean_ozone_confirmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Afghanistan/Afghanistan_mean_uv_confirmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Afghanistan/Afghanistan_mean_uv_deaths.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Afghanistan/Afghanistan_mean_uv_recovered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/China/China_dew_mean_deaths.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/China/China_dew_mean_recovered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/China/China_humidity_mean_deaths.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/China/China_humidity_mean_recovered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/China/China_mean_ozone_recovered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/China/China_mean_uv_deaths.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/India.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/India/India_dew_mean_confirmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/India/India_dew_mean_recovered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/India/India_humidity_mean_confirmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/India/India_mean_ozone_confirmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/India/India_mean_ozone_recovered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Mexico/Mexico_dew_mean_confirmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Mexico/Mexico_humidity_mean_confirmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Mexico/Mexico_mean_ozone_confirmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Mexico/Mexico_mean_ozone_deaths.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Mexico/Mexico_mean_ozone_recovered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/US.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Ukraine/Ukraine_dew_mean_deaths.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Ukraine/Ukraine_humidity_mean_confirmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Ukraine/Ukraine_humidity_mean_deaths.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Ukraine/Ukraine_mean_ozone_recovered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Ukraine/Ukraine_mean_precip_deaths.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/Y_X.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/code/Baysian_optmized_LSTM.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/code/LSTM_evaluate_model_performance.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/code/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/code/environment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/code/feature_corelation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/code/feature_corelation_box.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/code/helper_lstm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/code/report_baysian.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/cor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Afghanistan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Albania.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Algeria.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Andorra.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Angola.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Antigua and Barbuda.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Argentina.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Armenia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Australia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Austria.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Azerbaijan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Bahamas.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Bahrain.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Bangladesh.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Barbados.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Belarus.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Belgium.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Belize.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Benin.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Bhutan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Bolivia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Bosnia and Herzegovina.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Botswana.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Brazil.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Brunei.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Bulgaria.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Burkina Faso.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Burma.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Cabo Verde.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Cambodia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Cameroon.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Canada.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Central African Republic.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Chad.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Chile.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/China.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Colombia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Congo (Brazzaville).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Congo (Kinshasa).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Costa Rica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Cote d'Ivoire.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Croatia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Cuba.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Cyprus.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Czechia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Denmark.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Diamond Princess.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Djibouti.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Dominica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Dominican Republic.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Ecuador.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Egypt.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/El Salvador.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Equatorial Guinea.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Eritrea.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Estonia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Eswatini.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Ethiopia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Fiji.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Finland.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/France.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Gabon.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Gambia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Georgia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Germany.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Ghana.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Greece.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Grenada.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Guatemala.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Guinea-Bissau.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Guinea.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Guyana.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Haiti.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Holy See.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Honduras.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Hungary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Iceland.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/India.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Indonesia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Iran.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Iraq.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Ireland.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Israel.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Italy.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Jamaica.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Japan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Jordan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Kazakhstan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Kenya.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Kosovo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Kuwait.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Kyrgyzstan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Laos.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Latvia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Lebanon.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Liberia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Libya.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Liechtenstein.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Lithuania.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Luxembourg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/MS Zaandam.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Madagascar.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Malaysia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Maldives.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Mali.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Malta.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Mauritania.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Mauritius.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Mexico.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Moldova.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Monaco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Mongolia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Montenegro.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Morocco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Mozambique.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Namibia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Nepal.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Netherlands.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/New Zealand.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Nicaragua.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Niger.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Nigeria.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/North Macedonia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Norway.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Oman.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Pakistan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Panama.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Papua New Guinea.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Paraguay.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Peru.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Philippines.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Poland.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Portugal.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Qatar.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Romania.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Russia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Rwanda.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Saint Kitts and Nevis.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Saint Lucia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Saint Vincent and the Grenadines.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/San Marino.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Saudi Arabia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Senegal.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Serbia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Seychelles.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Singapore.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Slovakia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Slovenia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Somalia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/South Africa.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Spain.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Sri Lanka.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Sudan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Suriname.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Sweden.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Switzerland.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Syria.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Taiwan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Tanzania.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Thailand.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Timor-Leste.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Togo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Trinidad and Tobago.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Tunisia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Turkey.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/US.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Uganda.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Ukraine.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/United Arab Emirates.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/United Kingdom.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Uruguay.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Uzbekistan.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Venezuela.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Vietnam.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/West Bank and Gaza.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Zambia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/dataset/Zimbabwe.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/last_submission/project720.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_covid_country.py" beforeDir="false" afterPath="$PROJECT_DIR$/load_covid_country.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-21-2020_2200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-22-2020_1200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-23-2020_1200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-24-2020_0000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-24-2020_1200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-25-2020_0000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-25-2020_1200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-25-2020_2200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-26-2020_1100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-26-2020_2300.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-27-2020_0900.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-27-2020_1900.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-27-2020_2030.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-28-2020_1300.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-28-2020_1800.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-28-2020_2300.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-29-2020_1330.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-29-2020_1430.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-29-2020_2100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-30-2020_1100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-30-2020_2130.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/01-31-2020_1400.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-01-2020_1000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-01-2020_1800.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-01-2020_2300.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-02-2020_0500.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-02-2020_1945.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-02-2020_2100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-03-2020_1230.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-03-2020_2140.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-04-2020_0800.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-04-2020_1150.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-04-2020_2200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-05-2020_1220.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-06-2020_1318.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-06-2020_2005.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-07-2020_2024.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-08-2020_1024.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-08-2020_2304.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-09-2020_1030.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-09-2020_2320.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-10-2020_1030.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-10-2020_1930.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-11-2020_1050.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-11-2020_2044.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-12-2020_1020.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-12-2020_2200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-13-2020_1000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-13-2020_2115.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/02-14-2020_1123.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_daily_case_updates/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_time_series/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_time_series/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_time_series/time_series_19-covid-Confirmed_archived_0325.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_time_series/time_series_19-covid-Deaths_archived_0325.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_time_series/time_series_19-covid-Recovered_archived_0325.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_time_series/time_series_2019-ncov-Confirmed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_time_series/time_series_2019-ncov-Deaths.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/archived_data/archived_time_series/time_series_2019-ncov-Recovered.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/csse_covid_19_daily_reports - Shortcut.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200121-sitrep-1-2019-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200122-sitrep-2-2019-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200123-sitrep-3-2019-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200124-sitrep-4-2019-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200125-sitrep-5-2019-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200126-sitrep-6-2019--ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200127-sitrep-7-2019--ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200128-sitrep-8-ncov-cleared.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200129-sitrep-9-ncov-v2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200130-sitrep-10-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200131-sitrep-11-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200201-sitrep-12-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200202-sitrep-13-ncov-v3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200203-sitrep-14-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200204-sitrep-15-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200205-sitrep-16-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200206-sitrep-17-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200207-sitrep-18-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200208-sitrep-19-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200209-sitrep-20-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200210-sitrep-21-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200211-sitrep-22-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200212-sitrep-23-ncov.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200213-sitrep-24-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200214-sitrep-25-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200215-sitrep-26-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200216-sitrep-27-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200217-sitrep-28-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200218-sitrep-29-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200219-sitrep-30-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200220-sitrep-31-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200221-sitrep-32-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200222-sitrep-33-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200223-sitrep-34-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200224-sitrep-35-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200225-sitrep-36-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200226-sitrep-37-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200227-sitrep-38-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200228-sitrep-39-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200229-sitrep-40-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200301-sitrep-41-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200302-sitrep-42-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200303-sitrep-43-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200304-sitrep-44-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200305-sitrep-45-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200306-sitrep-46-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200307-sitrep-47-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200308-sitrep-48-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200309-sitrep-49-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200310-sitrep-50-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200311-sitrep-51-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200312-sitrep-52-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200313-sitrep-53-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200314-sitrep-54-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200315-sitrep-55-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200316-sitrep-56-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200317-sitrep-57-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200318-sitrep-58-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200319-sitrep-59-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200320-sitrep-60-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200321-sitrep-61-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200322-sitrep-62-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200323-sitrep-63-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200324-sitrep-64-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200325-sitrep-65-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200326-sitrep-66-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200327-sitrep-67-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200328-sitrep-68-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200329-sitrep-69-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200330-sitrep-70-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200331-sitrep-71-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200401-sitrep-72-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200402-sitrep-73-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200403-sitrep-74-covid-19-mp.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200404-sitrep-75-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200405-sitrep-76-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200406-sitrep-77-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200407-sitrep-78-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200408-sitrep-79-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200409-sitrep-80-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200410-sitrep-81-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200411-sitrep-82-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200412-sitrep-83-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200413-sitrep-84-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200414-sitrep-85-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200415-sitrep-86-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200416-sitrep-87-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200417-sitrep-88-covid-191b6cccd94f8b4f219377bff55719a6ed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200418-sitrep-89-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200419-sitrep-90-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200420-sitrep-91-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200421-sitrep-92-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200422-sitrep-93-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200423-sitrep-94-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200424-sitrep-95-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200425-sitrep-96-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200426-sitrep-97-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200427-sitrep-98-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200428-sitrep-99-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200429-sitrep-100-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200430-sitrep-101-covid-19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200501-covid-19-sitrep.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200502-covid-19-sitrep-103.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200503-covid-19-sitrep-104.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200504-covid-19-sitrep-105.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200505covid-19-sitrep-106.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200506covid-19-sitrep-107.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200507covid-19-sitrep-108.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200508covid-19-sitrep-109.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200509covid-19-sitrep-110.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200510covid-19-sitrep-111.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200511-covid-19-sitrep-112.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200512-covid-19-sitrep-113.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200513-covid-19-sitrep-114.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200514-covid-19-sitrep-115.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200515-covid-19-sitrep-116.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200516-covid-19-sitrep-117.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200517-covid-19-sitrep-118.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200518-covid-19-sitrep-119.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200519-covid-19-sitrep-120.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200520-covid-19-sitrep-121.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200521-covid-19-sitrep-122.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200522-covid-19-sitrep-123.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200523-covid-19-sitrep-124.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200524-covid-19-sitrep-125.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200525-covid-19-sitrep-126.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200526-covid-19-sitrep-127.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200527-covid-19-sitrep-128.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200528-covid-19-sitrep-129.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200529-covid-19-sitrep-130.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200530-covid-19-sitrep-131.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200531-covid-19-sitrep-132.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200601-covid-19-sitrep-133.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200602-covid-19-sitrep-134.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200603-covid-19-sitrep-135.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200604-covid-19-sitrep-136.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200605-covid-19-sitrep-137.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200606-covid-19-sitrep-138.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200607-covid-19-sitrep-139.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200608-covid-19-sitrep-140.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200609-covid-19-sitrep-141.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200610-covid-19-sitrep-142.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200611-covid-19-sitrep-143.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200612-covid-19-sitrep-144.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200613-covid-19-sitrep-145.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200614-covid-19-sitrep-146.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200615-covid-19-sitrep-147.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200616-covid-19-sitrep-148-draft.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200617-covid-19-sitrep-149.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200618-covid-19-sitrep-150.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_pdfs/20200619-covid-19-sitrep-151.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COVID-19-master/who_covid_19_situation_reports/who_covid_19_sit_rep_time_series/who_covid_19_sit_rep_time_series.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Afghanistan/Afghanistan_dew_mean_confirmed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Afghanistan/Afghanistan_dew_mean_recovered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Afghanistan/Afghanistan_humidity_mean_confirmed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Afghanistan/Afghanistan_humidity_mean_recovered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Afghanistan/Afghanistan_mean_ozone_confirmed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Afghanistan/Afghanistan_mean_uv_confirmed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Afghanistan/Afghanistan_mean_uv_deaths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Afghanistan/Afghanistan_mean_uv_recovered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/China/China_dew_mean_deaths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/China/China_dew_mean_recovered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/China/China_humidity_mean_deaths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/China/China_humidity_mean_recovered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/China/China_mean_ozone_recovered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/China/China_mean_uv_deaths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/India.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/India/India_dew_mean_confirmed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/India/India_dew_mean_recovered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/India/India_humidity_mean_confirmed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/India/India_mean_ozone_confirmed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/India/India_mean_ozone_recovered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Mexico/Mexico_dew_mean_confirmed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Mexico/Mexico_humidity_mean_confirmed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Mexico/Mexico_mean_ozone_confirmed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Mexico/Mexico_mean_ozone_deaths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Mexico/Mexico_mean_ozone_recovered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/US.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Ukraine/Ukraine_dew_mean_deaths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Ukraine/Ukraine_humidity_mean_confirmed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Ukraine/Ukraine_humidity_mean_deaths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Ukraine/Ukraine_mean_ozone_recovered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Ukraine/Ukraine_mean_precip_deaths.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/Y_X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/code/Baysian_optmized_LSTM.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/code/LSTM_evaluate_model_performance.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/code/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/code/environment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/code/feature_corelation.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/code/feature_corelation_box.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/code/helper_lstm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/code/report_baysian.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/cor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Afghanistan.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Albania.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Algeria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Andorra.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Angola.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Antigua and Barbuda.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Argentina.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Armenia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Australia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Austria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Azerbaijan.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Bahamas.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Bahrain.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Bangladesh.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Barbados.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Belarus.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Belgium.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Belize.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Benin.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Bhutan.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Bolivia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Bosnia and Herzegovina.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Botswana.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Brazil.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Brunei.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Bulgaria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Burkina Faso.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Burma.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Cabo Verde.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Cambodia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Cameroon.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Canada.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Central African Republic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Chad.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Chile.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/China.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Colombia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Congo (Brazzaville).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Congo (Kinshasa).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Costa Rica.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Cote d'Ivoire.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Croatia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Cuba.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Cyprus.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Czechia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Denmark.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Diamond Princess.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Djibouti.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Dominica.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Dominican Republic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Ecuador.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Egypt.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/El Salvador.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Equatorial Guinea.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Eritrea.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Estonia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Eswatini.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Ethiopia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Fiji.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Finland.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/France.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Gabon.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Gambia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Georgia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Germany.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Ghana.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Greece.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Grenada.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Guatemala.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Guinea-Bissau.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Guinea.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Guyana.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Haiti.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Holy See.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Honduras.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Hungary.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Iceland.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/India.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Indonesia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Iran.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Iraq.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Ireland.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Israel.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Italy.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Jamaica.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Japan.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Jordan.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Kazakhstan.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Kenya.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Kosovo.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Kuwait.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Kyrgyzstan.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Laos.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Latvia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Lebanon.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Liberia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Libya.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Liechtenstein.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Lithuania.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Luxembourg.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/MS Zaandam.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Madagascar.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Malaysia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Maldives.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Mali.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Malta.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Mauritania.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Mauritius.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Mexico.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Moldova.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Monaco.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Mongolia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Montenegro.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Morocco.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Mozambique.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Namibia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Nepal.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Netherlands.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/New Zealand.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Nicaragua.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Niger.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Nigeria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/North Macedonia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Norway.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Oman.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Pakistan.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Panama.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Papua New Guinea.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Paraguay.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Peru.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Philippines.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Poland.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Portugal.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Qatar.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Romania.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Russia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Rwanda.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Saint Kitts and Nevis.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Saint Lucia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Saint Vincent and the Grenadines.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/San Marino.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Saudi Arabia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Senegal.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Serbia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Seychelles.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Singapore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Slovakia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Slovenia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Somalia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/South Africa.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Spain.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Sri Lanka.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Sudan.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Suriname.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Sweden.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Switzerland.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Syria.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Taiwan.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Tanzania.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Thailand.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Timor-Leste.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Togo.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Trinidad and Tobago.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Tunisia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Turkey.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/US.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Uganda.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Ukraine.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/United Arab Emirates.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/United Kingdom.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Uruguay.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Uzbekistan.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Venezuela.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Vietnam.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/West Bank and Gaza.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Zambia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/dataset/Zimbabwe.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19countries/project720.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/submission/BDA_Project_Phase_I.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/submission/project_BDA.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +877,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qS994hWB3zESjgReIe2Y3RDl3Y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WS724/project" />
   </component>
@@ -135,5 +992,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
