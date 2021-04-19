@@ -11,10 +11,14 @@ try:
 except Exception as e:
     raise Exception('errors in the db creation')
 
-tablestr = "CREATE TABLE IF NOT EXISTS country_data (id integer PRIMARY KEY, " \
-           "date date NOT NULL, Province text not null, lat real, longi real, " \
-           "confirmed integer, risk integer, recovered integer, active integer," \
-           " incident_rate real, total_test integer,fatality_ratio real);"
+tablestr = '''CREATE TABLE IF NOT EXISTS country_data (id integer PRIMARY KEY,
+                country text,date date NOT NULL, 
+           confirmed integer, risk integer, recovered integer,humidity_mean real,humidity_std real,dew_mean real,
+          dew_std real, mean_ozone real,std_ozone real, mean_precip real, std_precip real,mean_tMax real,std_tMax real,
+          mean_tMin real,std_tMin real,mean_uv real,std_uv real);
+           '''
+# country	date	confirmed	deaths	recovered	humidity_mean	humidity_std	dew_mean	dew_std	mean_ozone
+# std_ozone	mean_precip	std_precip	mean_tMax	std_tMax	mean_tMin	std_tMin	mean_uv	std_uv
 
 if conn is not None:
     try:
@@ -24,22 +28,20 @@ if conn is not None:
         raise Exception('errors in the table creation')
 
 
-sql = '''INSERT INTO country_data(id,date,Province,lat,longi,confirmed,risk, recovered, active,incident_rate,
-total_test,fatality_ratio) VALUES(?,?,?,?,?,?,?,?,?,?,?,?) '''
+sql = '''INSERT INTO country_data(id,country,date, confirmed, risk, recovered,humidity_mean,humidity_std,dew_mean,
+    dew_std, mean_ozone,std_ozone , mean_precip , std_precip ,mean_tMax ,std_tMax ,mean_tMin ,std_tMin ,mean_uv ,std_uv) 
+                VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) '''
 
 ids = 0  # primary key
 
 print("COVID-19 data for Countries shall begin loading shortly.....")
-for file in tqdm(os.listdir("daily_data_us")):
+for file in tqdm(os.listdir("Country_dataset")):
 
-    # extract date from filename
-    date = file.split(".")[0]
 
-    # print(date)
-    df = pd.read_csv("daily_data_us/" + file)
+    df = pd.read_csv("Country_dataset/" + file)
 
     '''mean death count to replace death column as risk'''
-    death_count = df.describe()['Deaths']['mean']
+    death_count = df.describe()['deaths']['mean']
 
     '''for each row in df'''
     for index, row in df.iterrows():
