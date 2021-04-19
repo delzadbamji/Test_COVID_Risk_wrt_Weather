@@ -51,23 +51,3 @@ def plot_cluster(X, Y, labels, probabilities):
     plt.title('Risk Probabilities of Regions')
     plt.legend()
     plt.show()
-
-
-def test_plot_cluster():
-    X = [6,8,7,6,5,7,5,9,10,4]
-    Y = [8,6,6,10,1,1,1,9,8,9]
-    labels = [3,1,2,2,3,1,2,2,2,1]
-    plot_cluster(X, Y, labels)
-
-if __name__ == '__main__':
-    import matplotlib.pyplot as plt
-    import numpy as np
-
-    # Generate data...
-    t = np.linspace(0, 2 * np.pi, 20)
-    x = np.sin(t)
-    y = np.cos(t)
-
-    plt.scatter(t, x, c=y)
-    plt.show()
-    # test_plot_cluster()
