@@ -59,7 +59,7 @@ for file in tqdm(os.listdir("Country_dataset")):
         # print(row['Deaths'])
         # print(risk)
         ''' create a list to add to the db'''
-        setbuilder = [ids, date, row['Province_State'], row['Lat'], row['Long_'], row['Confirmed'],
+        setbuilder = [ids, row['date'], row['Province_State'], row['Lat'], row['Long_'], row['Confirmed'],
                       risk,row['Recovered'], row['Active'], row['Incident_Rate'], people_tested,mortality]
 
         # print(setbuilder)
